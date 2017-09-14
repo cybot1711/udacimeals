@@ -44,7 +44,7 @@ const calendar = (state = initialCalendarState, action) => {
   switch (action.type) {
     case ADD_RECIPE :
       return {
-        ...sate,
+        ...state,
         [day]: {
           ...state[day],
           [meal]: recipe.label
@@ -52,7 +52,7 @@ const calendar = (state = initialCalendarState, action) => {
       }
     case REMOVE_FROM_CALENDAR :
       return {
-        ...sate,
+        ...state,
         [day]: {
           ...state[day],
           [meal]: null
