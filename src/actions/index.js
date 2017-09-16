@@ -14,4 +14,4 @@ const removeFromCalendar = ({day, meal}) => ({
   meal
 })
 
-export {addRecipe, removeFromCalendar}
+export { ADD_RECIPE, REMOVE_FROM_CALENDAR, addRecipe, removeFromCalendar}
